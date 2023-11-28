@@ -17,8 +17,8 @@ To write a program to find the square root of a number.
 ## Program:
 ```py
 #To find square  root of a number
-#register number: 2209104
-#developed by: Arshatha P
+#register number: 23003393
+#developed by: SANJAI S
 def square(n,ite):
     m=float(n)
     for i in range(ite):
