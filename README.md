@@ -29,7 +29,8 @@ ite=1000
 square(n,ite)
 ```
 ## Output:
-![square of a number ](/square.jpg)
+![image](https://github.com/Sanjaikee/Square-root-of-a-number/assets/150231888/1aa50c6d-4176-47f2-a76f-1fbefdfdf8b9)
+
 
 
 ## Result:
