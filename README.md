@@ -19,14 +19,12 @@ To write a program to find the square root of a number.
 #To find square  root of a number
 #register number: 23003393
 #developed by: SANJAI S
-def square(n,ite):
-    m=float(n)
-    for i in range(ite):
-        n=0.5*(n+m/n)
-    print("Square root of the number:",n)
 n=int(input())
-ite=1000
-square(n,ite)
+approx=0.5*n
+for i in range(1,10):
+    a=0.5*(approx+n/approx)
+    approx=a
+print("Square root of the number:",a)
 ```
 ## Output:
 ![image](https://github.com/Sanjaikee/Square-root-of-a-number/assets/150231888/1aa50c6d-4176-47f2-a76f-1fbefdfdf8b9)
